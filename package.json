@@ -1,5 +1,5 @@
 {
-  "name": "goblinfinance-frontend",
+  "name": "spartandefi-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,7 +27,7 @@
     "@binance-chain/bsc-use-wallet": "^0.8.1",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
-    "@pancakeswap-libs/uikit": "github:noobmaster19/uikit2",
+    "@pancakeswap-libs/uikit": "github:spartandefi/uikit2",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
