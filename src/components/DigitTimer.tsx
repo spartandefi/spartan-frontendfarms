@@ -13,7 +13,7 @@ interface DigitTimerProps {
 const CountdownText = styled.span`
   font-size: 16px;
   color: #ffffff;
-  background: ${(props) => props.theme.card.background};;
+  background: ${(props) => props.theme.card.background};
   border-radius: 16px;
   width: 230px;
   margin-top: 5px;
