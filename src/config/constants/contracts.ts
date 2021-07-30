@@ -1,11 +1,11 @@
 export default {
   // tochange
   cake: {
-    56: '0x60BeD29aae497e06285512fD4d279EE4a9AA6935',
+    56: '',   // native token
     97: '',
   },
   masterChef: {
-    56: '0xBfa2371256d8b6207fCe97D461F5f0d2598bFB3B',
+    56: '',
     97: '',
   },
   wbnb: {

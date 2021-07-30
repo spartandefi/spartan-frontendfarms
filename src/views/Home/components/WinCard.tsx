@@ -30,7 +30,7 @@ const WinCard = () => {
     <StyledFarmStakingCard>
       <a href={`https://exchange.pancakeswap.finance/#/swap?outputCurrency=${tokenAddress}`}>
         <CardBody>
-          <CardMidContent color="#ffffff">Buy GOB!</CardMidContent>
+          <CardMidContent color="#ffffff">Buy SPARTAN!</CardMidContent>
           <Flex justifyContent="space-between">
             <Heading color="contrast" size="lg" />
             <ArrowForwardIcon mt={30} color="primary" />

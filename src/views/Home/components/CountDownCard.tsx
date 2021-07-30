@@ -83,7 +83,7 @@ const CountDownCard = () => {
                         </div>
                     </CardBody>
                     <CardFooter>
-                        <a href="https://t.me/Goblin_Finance"><Button>Join our channel for latest updates</Button></a>
+                        <a href="https://t.me/Spartan_Finance"><Button>Join our channel for latest updates</Button></a>
                     </CardFooter>
                 </StyledCountDownCard>
             </div>

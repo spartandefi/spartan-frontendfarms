@@ -19,7 +19,7 @@ const ReferralLink = (props) => {
     const [copied, setCopyState] = useState(false)
     const {account} = props
     const copyLink = () => {
-        navigator.clipboard.writeText(`https://www.goblinfinance.com/?ref=${account}`)
+        navigator.clipboard.writeText(`https://www.spartanfinance.com/?ref=${account}`)
         setCopyState(true)
     }
     return (
@@ -28,7 +28,7 @@ const ReferralLink = (props) => {
                 <Heading size="l" mb="24px">
                     {TranslateString(838, 'Your unique Referral Link')}
                 </Heading>
-                <Input type="text" value={`https://www.goblinfinance.com/?ref=${account}`} isWarning />
+                <Input type="text" value={`https://www.spartanfinance.com/?ref=${account}`} isWarning />
                 <Actions>
                     <Button
                         onClick={copyLink}

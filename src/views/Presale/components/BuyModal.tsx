@@ -38,7 +38,7 @@ const BuyModal: React.FC<BuyModalProps> = ({ max, tokenName = "", onConfirm, onD
     const renderErrorMessage = () => {
         let error = null;
         if (parseInt(val) > getBalanceNumber(tokensLeft)) {
-            error = "Not enough GOB left for sale!"
+            error = "Not enough SPARTAN left for sale!"
         }
         return error;
     }

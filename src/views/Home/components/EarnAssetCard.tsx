@@ -30,7 +30,7 @@ const EarnAssetCard = () => {
           <Heading color="white" size="lg">
             Stake
           </Heading>
-          <CardMidContent color="white">Goblin Tokens</CardMidContent>
+          <CardMidContent color="white">Spartan Tokens</CardMidContent>
           <Flex justifyContent="space-between">
             <Heading color="white" size="lg">
               in Nests

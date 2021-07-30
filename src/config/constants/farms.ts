@@ -10,12 +10,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'GOB-BUSD LP',
+    lpSymbol: 'SPARTAN-BUSD LP',
     lpAddresses: {
       97: '',
       56: busdNativePAIR,
     },
-    tokenSymbol: 'GOB',
+    tokenSymbol: 'SPARTAN',
     tokenAddresses: {
       97: '',
       56: tokenAddress,
@@ -26,12 +26,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'GOB-BNB LP',
+    lpSymbol: 'SPARTAN-BNB LP',
     lpAddresses: {
       97: '',
       56: bnbNativePair,
     },
-    tokenSymbol: 'GOB',
+    tokenSymbol: 'SPARTAN',
     tokenAddresses: {
       97: '',
       56: tokenAddress,
@@ -203,12 +203,12 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'GOB',
+    lpSymbol: 'SPARTAN',
     lpAddresses: {
       97: '',
       56: busdNativePAIR, // EGG-BUSD LP
     },
-    tokenSymbol: 'GOB',
+    tokenSymbol: 'SPARTAN',
     tokenAddresses: {
       97: '',
       56: tokenAddress,

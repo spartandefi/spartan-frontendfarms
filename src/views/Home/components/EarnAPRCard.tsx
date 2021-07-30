@@ -37,7 +37,7 @@ const EarnAPRCard = () => {
             .map((farm) => {
                 if (farm.lpTotalInQuoteToken) {
                     const BLOCKS_PER_YEAR = new BigNumber(15768000)
-                    const orcaRewardPerBlock = new BigNumber(farm.goblinPerBlock || 0.3).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18))
+                    const orcaRewardPerBlock = new BigNumber(farm.spartanPerBlock || 0.3).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18))
                     const orcaRewardPerYear = orcaRewardPerBlock.times(BLOCKS_PER_YEAR)
 
                     let apy = cakePrice.times(orcaRewardPerYear);

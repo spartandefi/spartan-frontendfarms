@@ -52,52 +52,44 @@ const config: MenuEntry[] = [
     icon: 'HamburgerIcon',
     items: [
       {
-        label: 'Harvest Lockup',
-        href: 'https://docs.goblinfinance.com/features/automatic-harvest-lock',
-      },
-      {
         label: 'Tax Free on Native Staking',
-        href: 'https://docs.goblinfinance.com/features/new-transfer-tax'
+        href: ''
       },
       {
         label: 'Transfer Tax Automatic Liquidity',
-        href: 'https://docs.goblinfinance.com/features/automatic-liquidity',
+        href: '',
       },
       {
         label: 'Emission Reduction',
-        href: 'https://docs.goblinfinance.com/features/automatic-emission-reduction',
+        href: '',
       },
       {
         label: 'Layered Farming',
-        href: 'https://docs.goblinfinance.com/features/layered-farming',
+        href: '',
       },
       {
         label: 'NFT',
-        href: 'https://docs.goblinfinance.com/features/nft',
+        href: '',
       }
     ],
   },
   {
     label: 'Roadmap',
     icon: 'RoadmapIcon',
-    href: 'https://docs.goblinfinance.com/roadmap'
+    href: ''
   },
   {
-    label: 'How are we SAFU?',
+    label: 'Reviews & Audits',
     icon: 'AuditIcon',
-    href: "https://docs.goblinfinance.com/code-security"
+    href: ''
   },
   {
     label: 'Read More',
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Github',
-        href: 'https://github.com/GoblinFinance',
-      },
-      {
         label: 'Docs',
-        href: 'https://docs.goblinfinance.com/',
+        href: '',
       },
     ],
   }

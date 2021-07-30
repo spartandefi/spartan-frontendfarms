@@ -71,7 +71,7 @@ const Referrals: React.FC = () => {
         <Page>
             <Hero>
                 <Heading as="h1" size="xl" mb="24px" color="secondary">
-                    {TranslateString(820, 'Goblin Finance Referral')}
+                    {TranslateString(820, 'Spartan Finance Referral')}
                 </Heading>
                 <Text>Share the referral link and earn 7% of your friends earnings</Text>
             </Hero>

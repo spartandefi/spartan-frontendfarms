@@ -193,11 +193,11 @@ const Presale: React.FC = () => {
             </CardFooter>
           </Card>
           <Card className={styles.card}>
-            <CardBody>Your Presale GOB</CardBody>
+            <CardBody>Your Presale SPARTAN</CardBody>
             <CardFooter>{!account ? <UnlockButton mt="8px" fullWidth /> :
               <div className={styles.flex}>
-                <div className={styles.item}>GOB unclaimed: <span className={styles.colored}>{getBalanceNumber(presale.tokensUnclaimed)}</span></div>
-                <div className={styles.item}>GOB in wallet: <span className={styles.colored}>{getBalanceNumber(presale.cakeBalance)}</span></div>
+                <div className={styles.item}>SPARTAN unclaimed: <span className={styles.colored}>{getBalanceNumber(presale.tokensUnclaimed)}</span></div>
+                <div className={styles.item}>SPARTAN in wallet: <span className={styles.colored}>{getBalanceNumber(presale.cakeBalance)}</span></div>
               </div>
             }</CardFooter>
           </Card>

@@ -148,7 +148,7 @@ const AddTokenCard = () => {
 
     setAddTokenDisabled(true)
 
-    const tokenSymbol = 'GOB'
+    const tokenSymbol = 'SPARTAN'
     const tokenDecimals = 18
     const tokenImage = `${process.env.REACT_APP_BASE_URL}/images/egg/9.png`
 
@@ -176,7 +176,7 @@ const AddTokenCard = () => {
     <Card>
       <CardBody>
         <Heading size="lg" mb="24px" style={{ textAlign: 'center' }}>
-          {TranslateString(10015, 'Add GOB')}
+          {TranslateString(10015, 'Add SPARTAN')}
         </Heading>
         <div style={{ textAlign: 'center' }}>
           <AddTokenIcon src="/images/egg/2.png" alt="add logo" />
@@ -208,14 +208,14 @@ const AddTokenCard = () => {
         <ActionsButtonWrapper>
           <div>
             <Button variant="primary" disabled={addTokenDisabled} onClick={handleAddToken}>
-              {TranslateString(10017, 'Add GOB to')}&nbsp;
+              {TranslateString(10017, 'Add SPARTAN to')}&nbsp;
               <ButtonIcon src="/images/metamask.png" alt="metamask logo" />
             </Button>
           </div>
           <BuyWrapper style={{ textAlign: 'center' }}>
             <Link external href={`https://exchange.pancakeswap.finance/#/swap?outputCurrency=${tokenAddress}`}>
               <Button variant="primary">
-                {TranslateString(10018, 'Buy GOB')}&nbsp;
+                {TranslateString(10018, 'Buy SPARTAN')}&nbsp;
                 <ButtonIcon src="/images/pancake.png" alt="pancake logo" />
               </Button>
             </Link>

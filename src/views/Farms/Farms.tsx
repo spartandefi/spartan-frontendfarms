@@ -76,7 +76,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.goblinPerBlock || 1).times(new BigNumber(farm.poolWeight)) .div(new BigNumber(10).pow(18))
+        const cakeRewardPerBlock = new BigNumber(farm.spartanPerBlock || 1).times(new BigNumber(farm.poolWeight)) .div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
 
         let apy = cakePrice.times(cakeRewardPerYear);
@@ -114,12 +114,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn GOB')
+            TranslateString(10002, 'Stake tokens to earn SPARTAN')
             :
-          TranslateString(320, 'Stake LP tokens to earn GOB')
+          TranslateString(320, 'Stake LP tokens to earn SPARTAN')
         }
         </Heading>
-        <Text>{TranslateString(10000, 'Deposit Fee will be used to buyback GOB')}</Text>
+        <Text>{TranslateString(10000, 'Deposit Fee will be used to buyback SPARTAN')}</Text>
       </Hero>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>

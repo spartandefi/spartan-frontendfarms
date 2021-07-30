@@ -32,16 +32,16 @@ const CakeStats = () => {
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = cakePrice.times(circSupply);
 
-  let goblinPerBlock = 0;
-  if(farms && farms[0] && farms[0].goblinPerBlock){
-    goblinPerBlock = new BigNumber(farms[0].goblinPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let spartanPerBlock = 0;
+  if(farms && farms[0] && farms[0].spartanPerBlock){
+    spartanPerBlock = new BigNumber(farms[0].spartanPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Goblin Stats')}
+          {TranslateString(534, 'Spartan Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -60,8 +60,8 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New GOB/block')}</Text>
-          <Text bold fontSize="14px">{goblinPerBlock}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New SPARTAN/block')}</Text>
+          <Text bold fontSize="14px">{spartanPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
