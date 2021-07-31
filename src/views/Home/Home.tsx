@@ -33,7 +33,7 @@ const Hero = styled.div`
     background-position: center;
     background-image: url(/images/websitebanner.png);
     background-size: 100%;
-    height: 300px;
+    height: 250px;
     padding-top: 0;
   }
 `
