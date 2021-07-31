@@ -38,11 +38,6 @@ const config: MenuEntry[] = [
     href: '/nests'
   },
   {
-    label: 'Referral',
-    icon: 'GroupsIcon',
-    href: '/referrals',
-  },
-  {
     label: 'Price Chart (Available at Launch)',
     icon: 'InfoIcon',
     href: `https://poocoin.app/tokens/${tokenAddress}`

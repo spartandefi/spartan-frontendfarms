@@ -27,12 +27,13 @@ const Hero = styled.div`
   padding-bottom: 20px;
   text-align: center;
   background-size: cover;
+  
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-position: center;
     background-image: url(/images/websitebanner.png);
     background-size: 100%;
-    height: 220px;
+    height: 300px;
     padding-top: 0;
   }
 `

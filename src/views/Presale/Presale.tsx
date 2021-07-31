@@ -42,7 +42,7 @@ const PresaleCountDownCard = styled(Card)`
 
 const Header = styled.div`
   align-items: center;
-  background-image: url('/images/presalebanner.gif');
+  background-image: url('/images/websitebanner.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -52,12 +52,13 @@ const Header = styled.div`
   padding-top: 20px;
   text-align: center;
   background-size: 100%;
+  
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-position: center;
-    background-image: url(/images/presalebanner.gif);
+    background-image: url(/images/websitebanner.png);
     background-size: 100%;
-    height: 220px;
+    height: 300px;
     padding-top: 0;
   }
   
