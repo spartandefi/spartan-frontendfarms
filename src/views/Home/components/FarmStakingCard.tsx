@@ -19,7 +19,7 @@ const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
   background-position: center right;
-  background-size: 50%;
+  background-size: 70%;
   min-height: 376px;
 `
 
