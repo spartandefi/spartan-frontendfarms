@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Nunito Sans', Poppin;
   }
   body {
-    background-color: #1f1f1f;
+    background-color: #bb0a1e;
   }
 `
 

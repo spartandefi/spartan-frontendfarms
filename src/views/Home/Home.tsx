@@ -17,7 +17,7 @@ import WinCard from './components/WinCard'
 const Hero = styled.div`
   align-items: center;
   background-position: center;
-  background-image: url(/images/websitebanner.gif);
+  background-image: url(/images/websitebanner.png);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -30,7 +30,7 @@ const Hero = styled.div`
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-position: center;
-    background-image: url(/images/websitebanner.gif);
+    background-image: url(/images/websitebanner.png);
     background-size: 100%;
     height: 220px;
     padding-top: 0;
