@@ -26,7 +26,7 @@ const Hero = styled.div`
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  background-size: cover;
+  background-size: 100%;
   
 
   ${({ theme }) => theme.mediaQueries.lg} {
