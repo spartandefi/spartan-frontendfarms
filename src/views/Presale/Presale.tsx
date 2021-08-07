@@ -29,10 +29,10 @@ export interface PresaleProps {
 
 const Glow = keyframes`
   from {
-    box-shadow:0px 0px 5px 2px #52c41a;
+    box-shadow:0px 0px 5px 2px #cc9900;
   }
   to {
-    box-shadow:0px 0px 15px 10px #52c41a;
+    box-shadow:0px 0px 15px 10px #cc9900;
   }
 `
 
@@ -164,7 +164,7 @@ const Presale: React.FC = () => {
             {!loading ?
               <div style={{ display: "table", marginLeft: "auto", marginRight: "auto" }}>
                 <Heading>Presale has ended!</Heading>
-                {/* <CircleTimer endTime={launchCountdownDate * 10 ** (-3)} baseColor="#f6ffed" activeColor="#52c41a" title=""/> */}
+                {/* <CircleTimer endTime={launchCountdownDate * 10 ** (-3)} baseColor="#f6ffed" activeColor="#cc9900" title=""/> */}
                 {/* <DigitTimer heading='Presale-End/Launch Countdown' text='Presale ended!' timeStamp={launchCountdownDate} /> */}
               </div>
               :

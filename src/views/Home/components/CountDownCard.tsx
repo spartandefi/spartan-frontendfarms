@@ -8,10 +8,10 @@ import DigitTimer from 'components/DigitTimer'
 
 const Glow = keyframes`
   from {
-    box-shadow:0px 0px 5px 2px #52c41a;
+    box-shadow:0px 0px 5px 2px #cc9900;
   }
   to {
-    box-shadow:0px 0px 15px 10px #52c41a;
+    box-shadow:0px 0px 15px 10px #cc9900;
   }
 `
 
@@ -69,7 +69,7 @@ const CountDownCard = () => {
                             <div>
                                 <Tag>Coming up next </Tag>
                                 <div style={{ display: "flex", paddingTop: "20px" }}>
-                                    {/* <CircleTimer endTime={presaleCountdownDate * 10 ** (-3)} baseColor="#f6ffed" activeColor="#52c41a" title="Start of Presale!" /> */}
+                                    {/* <CircleTimer endTime={presaleCountdownDate * 10 ** (-3)} baseColor="#f6ffed" activeColor="#cc9900" title="Start of Presale!" /> */}
                                     <DigitTimer heading='Harvest ready in ' text='You can harvest now' timeStamp={farmCountdownDate} />
                                 </div>
                                 <a href="/presale"><Button>Join our presale NOW!</Button></a>
