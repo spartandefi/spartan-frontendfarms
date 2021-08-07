@@ -22,9 +22,9 @@ const Hero = styled.div`
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  margin-bottom: 32px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   background-size: 100%;
   
@@ -74,7 +74,7 @@ const CTACards = styled(BaseLayout)`
     }
   }
   ${({ theme }) => theme.mediaQueries.lg} {
-    margin-bottom: 32px;
+    margin-bottom: 32px; 
     grid-gap: 32px;
     & > div {
       grid-column: span 4;

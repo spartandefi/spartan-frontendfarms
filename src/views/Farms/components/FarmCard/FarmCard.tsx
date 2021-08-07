@@ -19,10 +19,10 @@ export interface FarmWithStakedValue extends Farm {
 
 const Glow = keyframes`
   from {
-    box-shadow:0px 0px 5px 2px #cc9900;
+    box-shadow:0px 0px 5px 2px #ffc42e;
   }
   to {
-    box-shadow:0px 0px 15px 10px #cc9900;
+    box-shadow:0px 0px 15px 10px #ffc42e;
   }
 `
 
